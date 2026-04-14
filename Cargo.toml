@@ -1,0 +1,22 @@
+[package]
+name = "nzism-pqc-audit"
+version = "0.1.0"
+edition = "2021"
+description = "TLS/SSH PQC readiness scanner mapped to NZISM Section 2.4"
+license = "MIT"
+repository = "https://github.com/spinsphere/nzism-pqc-audit"
+readme = "README.md"
+
+[dependencies]
+anyhow = "1"
+chrono = { version = "0.4", features = ["serde"] }
+clap = { version = "4", features = ["derive"] }
+csv = "1"
+hickory-resolver = "0.25"
+reqwest = { version = "0.12", default-features = false, features = ["rustls-tls"] }
+rustls = { version = "0.23", default-features = false, features = ["aws-lc-rs", "tls12"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+tokio = { version = "1", features = ["full"] }
+tokio-rustls = "0.26"
+webpki-roots = "0.26"
