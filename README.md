@@ -53,6 +53,10 @@ On 14 April 2026 we ran this scanner against 118 New Zealand critical infrastruc
 
 The sector-aggregated results are in [`results/2026-04-14/summary.json`](results/2026-04-14/summary.json) and [`results/2026-04-14/summary.md`](results/2026-04-14/summary.md). The full write-up — including the global post-quantum trajectory (Gidney 2025, Google's 2029 migration deadline, Google Quantum AI's March 2026 ECC paper, NSA CNSA 2.0, NIST IR 8547), the CDN analysis, the DPMC consultation gap, and what organisations should actually do about it — is on the [Kaysec blog at kaysec.spinsphere.xyz](https://kaysec.spinsphere.xyz).
 
+### DPMC consultation submission
+
+On 19 April 2026 we submitted these findings to the Department of the Prime Minister and Cabinet as a formal response to the [Discussion Document on enhancing the cyber security of New Zealand's critical infrastructure system](https://consultation.dpmc.govt.nz/cyber/cyber-security-of-critical-infrastructure/). The full submission PDF is available at [`submissions/Enhancing NZ's critical infrastructure cybersecurity with a PQC perspective - by Spinsphere.pdf`](submissions/Enhancing%20NZ%27s%20critical%20infrastructure%20cybersecurity%20with%20a%20PQC%20perspective%20-%20by%20Spinsphere.pdf).
+
 We publish **sector-level aggregates only** as public results. We do not publish a per-entity "wall of shame"; we only name the 13 positive origin examples. See [Responsible disclosure](#responsible-disclosure) below.
 
 ---
