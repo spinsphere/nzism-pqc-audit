@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "scan_date": "2026-06-02",
+  "tool_version": "0.1.0",
+  "targets_scanned": 118,
+  "successful": 115,
+  "errors": 3,
+  "totals": {
+    "pqc_negotiated": 60,
+    "pqc_rate": 0.5217,
+    "tls_1_3": 106,
+    "tls_1_3_rate": 0.9217,
+    "behind_cdn": 41,
+    "cdn_rate": 0.3565
+  },
+  "split": {
+    "pqc_via_cdn": 35,
+    "pqc_via_origin": 25,
+    "no_pqc_behind_cdn": 6,
+    "no_pqc_origin": 49
+  },
+  "sectors": {
+    "Communications & Data": {
+      "total": 18,
+      "pqc": 10,
+      "pqc_cdn": 8,
+      "pqc_origin": 2,
+      "errors": 0
+    },
+    "Defence": {
+      "total": 6,
+      "pqc": 5,
+      "pqc_cdn": 2,
+      "pqc_origin": 3,
+      "errors": 0
+    },
+    "Drinking Water & Wastewater": {
+      "total": 9,
+      "pqc": 3,
+      "pqc_cdn": 3,
+      "pqc_origin": 0,
+      "errors": 0
+    },
+    "Energy": {
+      "total": 30,
+      "pqc": 14,
+      "pqc_cdn": 9,
+      "pqc_origin": 5,
+      "errors": 1
+    },
+    "Finance": {
+      "total": 14,
+      "pqc": 7,
+      "pqc_cdn": 3,
+      "pqc_origin": 4,
+      "errors": 0
+    },
+    "Health": {
+      "total": 16,
+      "pqc": 11,
+      "pqc_cdn": 0,
+      "pqc_origin": 11,
+      "errors": 2
+    },
+    "Transport": {
+      "total": 25,
+      "pqc": 10,
+      "pqc_cdn": 10,
+      "pqc_origin": 0,
+      "errors": 0
+    }
+  },
+  "cdn_providers": {
+    "Cloudflare": {
+      "fronted": 29,
+      "pqc": 28
+    },
+    "AWS CloudFront": {
+      "fronted": 4,
+      "pqc": 3
+    },
+    "Fastly": {
+      "fronted": 4,
+      "pqc": 0
+    },
+    "Imperva": {
+      "fronted": 3,
+      "pqc": 3
+    },
+    "Imperva/Incapsula": {
+      "fronted": 1,
+      "pqc": 1
+    }
+  },
+  "key_exchange_groups": {
+    "X25519MLKEM768": 60,
+    "X25519": 43,
+    "secp256r1": 9,
+    "secp384r1": 3
+  },
+  "tls_versions": {
+    "TLSv1_3": 106,
+    "TLSv1_2": 9
+  }
+}
